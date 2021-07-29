@@ -5,7 +5,7 @@ import java.io.File
 
 fun main() {
     val nameId = mutableMapOf(
-        "" to 0
+                "" to 0
     )
     var max = 0
     File("D:\\Learn\\KotlinK\\app\\src\\androidTest\\java\\collections\\60.ips.txt").forEachLine {
